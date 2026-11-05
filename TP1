@@ -1,0 +1,21 @@
+name = "Raksa"
+age = 19
+major = 'Data Science'
+gpa = 3.0
+is_scholar = True
+
+print('=============================')
+print("Name: ", name)
+print("Age: ", age)
+print("Major: ", major)
+print("GPA: ", gpa)
+print("Scholar: ", is_scholar)
+print('============================')
+
+print("Name Type: ", type(name))
+print("Age Type: ", type(age))
+print("Major Type ", type(major))
+print("GPA Type: ", type(gpa))
+print("Scholar Type: ", type(is_scholar))
+for value in (name, age, major, gpa, is_scholar):
+    print(repr(value), "->", type(value).__name__)
